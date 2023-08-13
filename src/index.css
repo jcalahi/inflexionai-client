@@ -1,0 +1,34 @@
+:root {
+  --orange100: #f7f0f0;
+  --orange300: #ff5c0a;
+}
+
+body {
+  background: radial-gradient(70.71% 70.71% at 50% 50%, var(--orange300) 0%, var(--orange100) 50%, var(--orange100) 100%);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: local('Fraunces'), url(fonts/Fraunces.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'FrauncesItalic';
+  src: local('FrauncesItalic'), url(fonts/FrauncesItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: local('DMSans'), url(fonts/DMSans.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'DMSansItalic';
+  src: local('DMSansItalic'), url(fonts/DMSansItalic.ttf) format('truetype');
+}

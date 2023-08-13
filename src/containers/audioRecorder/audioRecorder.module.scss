@@ -1,0 +1,41 @@
+@import "styles/_colors.module.scss";
+
+.container {
+  border-radius: 30px;
+  background: linear-gradient(27deg, rgba(255, 92, 10, 0.75) 0%, color(primary100) 50%, rgba(255, 92, 10, 0.85) 100%);
+  position: relative;
+  height: 233px;
+  width: 460px;
+
+  img {
+    cursor: pointer;
+  }
+}
+
+.audio {
+  padding: 0 90px;
+}
+
+.stopRecordIcon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.timer {
+  display: inline-block;
+  font-family: "Fraunces";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-top: 40px;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0 30px;
+}

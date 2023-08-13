@@ -1,0 +1,39 @@
+.container {
+  margin: 27px auto 111px;
+  max-width: 813px;
+  height: calc(100vh - 138px);
+  text-align: center;
+}
+
+.title {
+  font-family: "Fraunces";
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 38px;
+}
+
+.subtitle {
+  font-family: "Fraunces";
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.iframe {
+  border: 0;
+  margin: 26px 0;
+}
+
+.buttonText {
+  font-family: "Fraunces";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.blur {
+  filter: blur(10px);
+}

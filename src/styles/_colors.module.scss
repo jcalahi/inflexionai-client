@@ -1,0 +1,22 @@
+$base_colors: (
+  baseWhite: #fff
+);
+
+$grey_colors: (
+  grey25: #60637b,
+  grey50: #4a4c5f,
+  grey100: #3d3f54
+);
+
+$primary_colors: (
+  primary25: #f7f0f0,
+  primary50: #ff6154,
+  primary100: #ff5c0a
+);
+
+$colors_merge1: map_merge($grey_colors, $primary_colors);
+$colors: map_merge($colors_merge1, $base_colors);
+
+@function color($color) {
+  @return map-get($colors, $color);
+}

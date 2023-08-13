@@ -1,0 +1,28 @@
+.menuIcon {
+  cursor: pointer;
+  position: relative;
+
+  &_text {
+    font-size: 14px;
+    font-style: italic;
+    position: absolute;
+    visibility: hidden;
+    white-space: nowrap;
+  }
+
+  &:hover {
+    & .menuIcon_text {
+      visibility: visible;
+      position: absolute;
+      top: 8px;
+    }
+  }
+}
+
+.left {
+  left: 40px;
+}
+
+.right {
+  right: 40px;
+}

@@ -1,0 +1,28 @@
+.audio {
+  padding: 0 90px;
+  height: 41px;
+}
+
+.stopRecordIcon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.timer {
+  display: inline-block;
+  font-family: "Fraunces";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-top: 40px;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0 30px;
+}

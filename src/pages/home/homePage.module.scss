@@ -1,0 +1,107 @@
+.container {
+  padding: 0 20px;
+}
+
+.flexBetween {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.buttonText {
+  font-family: "Fraunces";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 136px 0 620px;
+}
+
+.title {
+  font-family: "Fraunces";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+}
+
+.subtitleContainer {
+  margin: 14px 0 36px;
+}
+
+.subtitle {
+  font-family: "DMSans";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39px;
+
+  &_secondary {
+    font-family: "DMSans";
+    font-style: italic;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 39px;
+  }
+}
+
+.description {
+  margin-bottom: 40px;
+  text-align: center;
+  white-space: pre-line;
+
+  &_content {
+    font-family: "DMSans";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 33px;
+}
+
+.stickyElement {
+  position: sticky;
+  bottom: 18px;
+}
+
+.blur {
+  filter: blur(10px);
+}
+
+.displayNone {
+  display: none;
+}
+
+.readMore {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.footer {
+  border-top: 1px solid rgba(61, 63, 84, 0.20);
+  margin: 112px 0;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+  > img {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,1 @@
+export { RecordController } from "./recordController";
